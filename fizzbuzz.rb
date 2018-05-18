@@ -5,11 +5,12 @@
 #fizzbuzz % by 3 and 5
 
 def fizzbuzz(integer)
-  if integer % 3 == 0
+  if integer % 3 == 0 && integer % 5 == 0 
+    "FizzBuzz" 
+    integer % 3 == 0
     "Fizz"
   elsif integer % 5 == 0
     "Buzz" 
-  else integer % 3 == 0 && integer % 5 == 0 
-    "FizzBuzz" 
+  else 
   end 
 end 
